@@ -393,9 +393,9 @@ li.nav-item .btn-white {
     color: #59a0d7; }
 
 .footer-3 {
-  background: #f7f7f8;
+  background: #2b2d34;
   width: 100%;
-  color: #46484a;
+  color: #fff;
   padding-top: 1rem;
   padding-bottom: .5rem; }
   .footer-3 .container-fluid {
@@ -416,6 +416,7 @@ li.nav-item .btn-white {
   .footer-3 .social li a {
     background: none;
     border: none; }
+    .footer-3 img { height:30px;}
 
 .footer-4 {
   background: #2b2d34;
