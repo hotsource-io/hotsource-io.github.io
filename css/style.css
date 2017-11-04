@@ -206,7 +206,8 @@ li.nav-item .btn-white {
   color: #46484a; }
 
 .cover-1 {
-  background: #2b2d34 url(../images/cover-bg-1.jpg) center;
+  background: #2b2d34 url(../images/wpbg.jpg) center;
+  box-shadow:inset 0 0 0 2000px rgba(20,20,30,0.95);
   background-size: cover;
   min-height: 50rem;
   height: auto;
@@ -226,9 +227,10 @@ li.nav-item .btn-white {
     margin: 0 auto; }
 
 .cover-2 {
-  background: #2b2d34 url(../images/cover-bg-1.jpg) center;
+  background: #2b2d34 url(../images/wpbg.jpg) center;
   background: #2b2d34;
   background-size: cover;
+  box-shadow:inset 0 0 0 2000px rgba(0,0,40,0.3);
   min-height: 50rem;
   height: auto;
   border-radius: 0;
@@ -310,7 +312,11 @@ li.nav-item .btn-white {
       background: none;
       border: 0.15rem solid #696b6e;
       color: #fff; }
-
+.features-4 .col-feature .logo-img {
+    margin-bottom:1em;
+    border-radius:20px;
+    height:80px;
+}
 .content-1, .content-2, .content-4 {
   background: #fff;
   padding-bottom: 0.1rem; }
@@ -349,10 +355,11 @@ li.nav-item .btn-white {
     color: #fff; }
 
 .cta-5 {
-  color: #46484a;
+    background: #2b2d34;
+      color: #fff;
   padding: 4rem 0; }
   .cta-5 p {
-    color: #696b6e; }
+    color: #c9cbce; }
   .cta-5 form.subscribe {
     max-width: 40rem;
     margin: 0 auto; }
