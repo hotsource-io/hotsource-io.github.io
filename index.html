@@ -188,29 +188,6 @@
 						<a href="https://www.jvzoo.com/b/0/282829/2" class="btn btn-lg btn-success pill-btn mt-3">Get Early Access - $19</a>
 					</div>
 				</div>
-				<button id="purchase">Buy Button</button>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-<script src="https://checkout.freemius.com/checkout.min.js"></script>
-<script>
-    var handler = FS.Checkout.configure({
-        plugin_id:  '1516',
-        plan_id:    '2194',
-        public_key: 'pk_4c898f6477639b7d64f94e165182c',
-        image:      'https://your-plugin-site.com/logo-100x100.png'
-    });
-
-    $('#purchase').on('click', function (e) {
-        handler.open({
-            name     : 'TH Pro',
-            licenses : 1,
-            // You can consume the response for after purchase logic.
-            success  : function (response) {
-                // alert(response.user.email);
-            }
-        });
-        e.preventDefault();
-    });
-</script>
 			</div>
 		</section>
 
